@@ -1,0 +1,156 @@
+.container-fluid {
+    width: 100%;
+    height: 400px;
+}
+.container{
+    width: 100%;
+}
+*{
+        box-sizing: border-box;
+}
+.row{
+        width: 100%
+    }
+    .clearfix ::after{
+    clear: both;
+    content: "";
+    display: block;
+}
+.Images{
+        width: 280px;
+        height: 300px;
+        object-fit: cover;
+}
+.card{
+        position: relative;
+        width: 23%; 
+        border: 2px solid black;
+        box-shadow: black 0px 2px 8px 0px;
+        float: left;
+        margin: 10px;
+        background-color: #131637;
+        color: white;
+        padding: 10px;
+        height: 550px;
+}
+.card span{
+        position: absolute;
+        top: 20px; right: 20px;
+        color: white;
+        padding: 10px;
+        background-color: #5E5F8F;
+        border-radius: 5px;
+}
+ .card img{
+        width: 100%;
+    }
+
+body{
+        background-image: url(Images/Stars.jpg);
+        background-size: cover;
+}
+
+.link{
+        color: white;
+        text-decoration: none;
+}
+header{
+        position: sticky;
+        width: 100%;
+        top: 0;
+        z-index: 1000;
+        font-size: large;
+}
+.header-row{
+        width: 100%;
+}
+.header-col1{
+        width: 10.3%;
+        border: #131637 solid 5px;
+        background-color: #10112499;
+        float: left;
+        margin-top: 29px;
+        height: 120px;
+}
+.header-col2{
+        width: 86%;
+        height: 120px;
+        border: #131637 solid 5px;
+        background-color: #10112499;
+        float: left;
+        text-align: center;
+        padding: 10px;
+        margin: 30px;
+        padding-top: 30px;
+}
+.nav-bar{
+        list-style-type: none;
+        padding: 10px;
+}
+.header-col2 a{
+        text-decoration: none;
+        color: white;
+}
+.header-col2 li{
+        display: inline-block;
+        width: 150px;
+        margin-left: 20px;
+        padding: 10px;
+        background-color: #5E5F8F;
+        border-radius: 5px;
+}
+
+.container-nav{
+        width: 85%; margin: auto;
+        margin-top: 30px;margin-bottom: 30px;
+}
+.row {width: 100%;}
+#backtotop{
+            position: fixed;
+            right: 10px; bottom: 10px;
+            width: 50px;
+ }
+ .div-space{
+        width: 100%;
+        height: 150px;
+ }
+ .container-hero{
+        width: 100%;
+}
+.hero{
+        background-image: url(Images/blackhole.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 10px;
+        text-align: left;
+        padding: 70px;
+        height: 500px;
+        text-transform: uppercase;
+        color: #82715c;
+        font-size: 50px;
+}
+.Logo{
+        width: 100px;
+        height: 100px;
+        margin-left: 70px;
+        margin-top: 20px;
+}
+
+.small-text{
+        font-size: 25px;
+        color: #e2d3b8;
+        text-transform: none;
+        width: 500px;
+        padding-top: 40px;}
+button{
+        margin-bottom: 40px;
+        margin-left: 100px;
+        text-align: center;
+         background-color: #101126;
+        color: #D3DBE8;
+         width: 150px;
+         height: 35px;
+}
+.nav-bar-ul li{
+        padding-right: 200px;
+}
